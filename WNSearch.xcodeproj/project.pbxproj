@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		78E2732F1CB246F5007D8D53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2732E1CB246F5007D8D53 /* main.m */; };
 		78E273321CB246F5007D8D53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273311CB246F5007D8D53 /* AppDelegate.m */; };
-		78E273351CB246F5007D8D53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273341CB246F5007D8D53 /* ViewController.m */; };
 		78E273381CB246F5007D8D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E273361CB246F5007D8D53 /* Main.storyboard */; };
 		78E2733A1CB246F5007D8D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E273391CB246F5007D8D53 /* Assets.xcassets */; };
 		78E2733D1CB246F5007D8D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E2733B1CB246F5007D8D53 /* LaunchScreen.storyboard */; };
 		78E273481CB246F5007D8D53 /* WNSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273471CB246F5007D8D53 /* WNSearchTests.m */; };
 		78E273531CB246F5007D8D53 /* WNSearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273521CB246F5007D8D53 /* WNSearchUITests.m */; };
+		78E273671CB24715007D8D53 /* NDSearchTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273621CB24715007D8D53 /* NDSearchTool.m */; };
+		78E273681CB24715007D8D53 /* NSString+Spell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273641CB24715007D8D53 /* NSString+Spell.m */; };
+		78E273691CB24715007D8D53 /* WNSearchResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273661CB24715007D8D53 /* WNSearchResultView.m */; };
+		78E2736F1CB24794007D8D53 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2736C1CB24794007D8D53 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		78E273701CB24794007D8D53 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2736E1CB24794007D8D53 /* UIView+SDAutoLayout.m */; };
+		78E273741CB247BC007D8D53 /* PersDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273731CB247BC007D8D53 /* PersDetailModel.m */; };
+		78E273771CB247EF007D8D53 /* ConListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273761CB247EF007D8D53 /* ConListCell.m */; };
+		78E2737B1CB24831007D8D53 /* XYString.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2737A1CB24831007D8D53 /* XYString.m */; };
+		78E2737E1CB24A32007D8D53 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2737D1CB24A32007D8D53 /* CustomViewController.m */; };
+		78E273821CB24DB1007D8D53 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273811CB24DB1007D8D53 /* CommonTools.m */; };
+		78E273841CB25136007D8D53 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 78E273831CB25135007D8D53 /* header.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +49,6 @@
 		78E2732E1CB246F5007D8D53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78E273301CB246F5007D8D53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78E273311CB246F5007D8D53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		78E273331CB246F5007D8D53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78E273341CB246F5007D8D53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78E273371CB246F5007D8D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78E273391CB246F5007D8D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78E2733C1CB246F5007D8D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,28 @@
 		78E2734E1CB246F5007D8D53 /* WNSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WNSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E273521CB246F5007D8D53 /* WNSearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNSearchUITests.m; sourceTree = "<group>"; };
 		78E273541CB246F5007D8D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E273611CB24715007D8D53 /* NDSearchTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDSearchTool.h; sourceTree = "<group>"; };
+		78E273621CB24715007D8D53 /* NDSearchTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDSearchTool.m; sourceTree = "<group>"; };
+		78E273631CB24715007D8D53 /* NSString+Spell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Spell.h"; sourceTree = "<group>"; };
+		78E273641CB24715007D8D53 /* NSString+Spell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Spell.m"; sourceTree = "<group>"; };
+		78E273651CB24715007D8D53 /* WNSearchResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNSearchResultView.h; sourceTree = "<group>"; };
+		78E273661CB24715007D8D53 /* WNSearchResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNSearchResultView.m; sourceTree = "<group>"; };
+		78E2736B1CB24794007D8D53 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		78E2736C1CB24794007D8D53 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		78E2736D1CB24794007D8D53 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		78E2736E1CB24794007D8D53 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		78E273721CB247BC007D8D53 /* PersDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersDetailModel.h; sourceTree = "<group>"; };
+		78E273731CB247BC007D8D53 /* PersDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersDetailModel.m; sourceTree = "<group>"; };
+		78E273751CB247EF007D8D53 /* ConListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConListCell.h; sourceTree = "<group>"; };
+		78E273761CB247EF007D8D53 /* ConListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConListCell.m; sourceTree = "<group>"; };
+		78E273791CB24831007D8D53 /* XYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYString.h; sourceTree = "<group>"; };
+		78E2737A1CB24831007D8D53 /* XYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYString.m; sourceTree = "<group>"; };
+		78E2737C1CB24A32007D8D53 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		78E2737D1CB24A32007D8D53 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		78E2737F1CB24A89007D8D53 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		78E273801CB24DB1007D8D53 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
+		78E273811CB24DB1007D8D53 /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
+		78E273831CB25135007D8D53 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +131,17 @@
 		78E2732C1CB246F5007D8D53 /* WNSearch */ = {
 			isa = PBXGroup;
 			children = (
+				78E2736A1CB24721007D8D53 /* SDAutolayout */,
+				78E273781CB247FC007D8D53 /* CustomView */,
+				78E273711CB247AD007D8D53 /* Model */,
+				78E273601CB246FE007D8D53 /* SearchTool */,
+				78E273831CB25135007D8D53 /* header.png */,
 				78E273301CB246F5007D8D53 /* AppDelegate.h */,
 				78E273311CB246F5007D8D53 /* AppDelegate.m */,
-				78E273331CB246F5007D8D53 /* ViewController.h */,
-				78E273341CB246F5007D8D53 /* ViewController.m */,
+				78E273801CB24DB1007D8D53 /* CommonTools.h */,
+				78E273811CB24DB1007D8D53 /* CommonTools.m */,
+				78E2737C1CB24A32007D8D53 /* CustomViewController.h */,
+				78E2737D1CB24A32007D8D53 /* CustomViewController.m */,
 				78E273361CB246F5007D8D53 /* Main.storyboard */,
 				78E273391CB246F5007D8D53 /* Assets.xcassets */,
 				78E2733B1CB246F5007D8D53 /* LaunchScreen.storyboard */,
@@ -138,6 +175,51 @@
 				78E273541CB246F5007D8D53 /* Info.plist */,
 			);
 			path = WNSearchUITests;
+			sourceTree = "<group>";
+		};
+		78E273601CB246FE007D8D53 /* SearchTool */ = {
+			isa = PBXGroup;
+			children = (
+				78E2737F1CB24A89007D8D53 /* Header.h */,
+				78E273791CB24831007D8D53 /* XYString.h */,
+				78E2737A1CB24831007D8D53 /* XYString.m */,
+				78E273611CB24715007D8D53 /* NDSearchTool.h */,
+				78E273621CB24715007D8D53 /* NDSearchTool.m */,
+				78E273631CB24715007D8D53 /* NSString+Spell.h */,
+				78E273641CB24715007D8D53 /* NSString+Spell.m */,
+				78E273651CB24715007D8D53 /* WNSearchResultView.h */,
+				78E273661CB24715007D8D53 /* WNSearchResultView.m */,
+			);
+			name = SearchTool;
+			sourceTree = "<group>";
+		};
+		78E2736A1CB24721007D8D53 /* SDAutolayout */ = {
+			isa = PBXGroup;
+			children = (
+				78E2736B1CB24794007D8D53 /* UITableView+SDAutoTableViewCellHeight.h */,
+				78E2736C1CB24794007D8D53 /* UITableView+SDAutoTableViewCellHeight.m */,
+				78E2736D1CB24794007D8D53 /* UIView+SDAutoLayout.h */,
+				78E2736E1CB24794007D8D53 /* UIView+SDAutoLayout.m */,
+			);
+			name = SDAutolayout;
+			sourceTree = "<group>";
+		};
+		78E273711CB247AD007D8D53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78E273721CB247BC007D8D53 /* PersDetailModel.h */,
+				78E273731CB247BC007D8D53 /* PersDetailModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		78E273781CB247FC007D8D53 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				78E273751CB247EF007D8D53 /* ConListCell.h */,
+				78E273761CB247EF007D8D53 /* ConListCell.m */,
+			);
+			name = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +327,7 @@
 			files = (
 				78E2733D1CB246F5007D8D53 /* LaunchScreen.storyboard in Resources */,
 				78E2733A1CB246F5007D8D53 /* Assets.xcassets in Resources */,
+				78E273841CB25136007D8D53 /* header.png in Resources */,
 				78E273381CB246F5007D8D53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +353,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E273351CB246F5007D8D53 /* ViewController.m in Sources */,
+				78E273771CB247EF007D8D53 /* ConListCell.m in Sources */,
+				78E2737B1CB24831007D8D53 /* XYString.m in Sources */,
+				78E2736F1CB24794007D8D53 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				78E2737E1CB24A32007D8D53 /* CustomViewController.m in Sources */,
+				78E273691CB24715007D8D53 /* WNSearchResultView.m in Sources */,
+				78E273741CB247BC007D8D53 /* PersDetailModel.m in Sources */,
+				78E273701CB24794007D8D53 /* UIView+SDAutoLayout.m in Sources */,
+				78E273681CB24715007D8D53 /* NSString+Spell.m in Sources */,
 				78E273321CB246F5007D8D53 /* AppDelegate.m in Sources */,
 				78E2732F1CB246F5007D8D53 /* main.m in Sources */,
+				78E273821CB24DB1007D8D53 /* CommonTools.m in Sources */,
+				78E273671CB24715007D8D53 /* NDSearchTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
