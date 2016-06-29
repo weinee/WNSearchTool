@@ -50,7 +50,8 @@
 	
 	//创建搜索
 	self.searchDisplay = [[WNSearchResultView alloc] initWithSearchBar:self.searchBar dateSource:self.searchDatasource contentController:self];
-	[self.searchDisplay setCellClass:[ConListCell class] andModelKeyPath:@"model"];//添加单元格和模型keypath
+//	[self.searchDisplay setCellClass:[ConListCell class] andModelKeyPath:@"model"];//添加单元格和模型keypath
+	[self.searchDisplay setCellClass:[ConListCell class] andModelKeyPath:@"model" searchField:@[@"displayname"]];
 //	_searchDisplay.hidenNavigationBar = NO;
 	self.searchDisplay.delegate = self;
 //	self.searchDisplay = nil;

@@ -8,6 +8,8 @@
 
 #ifndef Header_h
 #define Header_h
+#import "MJRefresh.h"
+
 ///Size
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -23,6 +25,8 @@
 #define NAVIGATIONBAR_BACKGROUNDCOLOR [UIColor colorWithRed:130/255.0 green:197/255.0 blue:66/255.0 alpha:1.0]
 //TabBar高度
 #define TABBARHEIGHT 48
+//当前SDK版本
+#define CurrentVersion [[[UIDevice currentDevice] systemVersion] floatValue]
 
 //Tab默认颜色
 #define TAB_ITEMSELECTEDCOLOR [UIColor colorWithRed:113/255.0 green:192/255.0 blue:188/255.0 alpha:1.0]

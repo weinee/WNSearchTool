@@ -31,6 +31,7 @@
 	NSArray *pyArr = [quanpin componentsSeparatedByString:@" "];
 	NSMutableString *newString = [NSMutableString string];
 	for (NSString *str in pyArr) {
+		if(str.length == 0) continue;
 		[newString appendString: uppper ? [[str substringToIndex:1] uppercaseString] : [str substringFromIndex:1]];
 	}
 	return newString;
